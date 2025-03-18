@@ -55,6 +55,7 @@ low_mom = status_mom_df[status_mom_df['Momentum'].isin(['Low', 'Med Low'])].grou
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Layout of the app
 app.layout = html.Div([
