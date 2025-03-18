@@ -1,5 +1,6 @@
 dash==3.0.0
-numpy
 pandas
 plotly
+requests
+io
 gunicorn
