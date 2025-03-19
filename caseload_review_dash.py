@@ -20,8 +20,7 @@ from dash.dependencies import Input, Output
 import requests
 from io import BytesIO
 
-import warnings
-warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
+
 
 """# Number of AS Students
 
